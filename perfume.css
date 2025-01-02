@@ -1,0 +1,115 @@
+* {
+    background-color: #f4ece4;
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
+
+#container {
+    margin-top: 150px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.card {
+    height: 500px;
+    width: 350px;
+}
+
+.post1 {
+    border-radius: 20px 0px 0px 20px;
+    background-image: url(perfume.jpeg);
+    background-size: cover;
+}
+
+.post2 {
+    border-radius: 0px 20px 20px 0px;
+    background-color: white;
+}
+
+.post2 h4 {
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 5px;
+    color: #b2afac;
+    background-color: white;
+    margin: 40px 40px 20px 40px;
+    width: 100px;
+}
+ .heading{
+    margin-left: 40px;
+    background-color: white;
+}
+
+#para {
+    margin: 25px 40px 0px 40px;
+    background-color: white;
+}
+
+p b {
+    font-family: "Crimson Pro", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+ color: #b2afac;
+    line-height: 0.7cm;
+    background-color: white;
+}
+#pricetag{
+    display: flex;
+    flex-direction: row;
+    
+    background-color: white;
+    margin: 30px 0px 0px 40px;
+}
+#pricetag h1{
+    color: #44735c;
+    background-color: white;
+    font-family: "Gravitas One", serif;
+    font-weight: 100;
+    font-style: normal;
+
+}
+#pricetag h5{
+    color:#b2afac;
+    background-color: white;
+    text-decoration: line-through;
+    margin-left: 20px;
+    font-size: 15px;
+}
+button{
+    height: 50px;
+    width: 300px;
+    border-radius: 10px;
+    background-color: #44735c;
+    color: white;
+    font-size: 20px;
+    border: none;
+    margin: 25px;
+}
+button span{
+    background-color: #44735c;
+    color: white;
+}
+@media (max-width:500px) {
+
+    #container {
+        flex-wrap: wrap;
+        margin-top: 5px;
+        justify-content: center;
+    }
+
+    .card {
+        border-radius: 20px;
+        margin: 5px;
+    }
+}
